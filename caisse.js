@@ -6,3 +6,8 @@ let qtité_stylo = 3;
 const mont_cahier = prix_un_cahier*qtité_cahier;
 const mont_stylo = prix_un_stylo*qtité_stylo;
 const mont_achat = mont_cahier+mont_stylo;
+console.log("==== CAISSE ====");
+console.log("Cahiers: ",mont_cahier," FCFA");
+console.log("Stylos:",mont_stylo, "FCFA");
+console.log("Total:",mont_achat, "FCFA");
+console.log("Budget:",budget_client, "FCFA");
